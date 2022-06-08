@@ -8,10 +8,13 @@ const Homenavigation = () => {
     <Sidebar>
       <h3>Edit Homepage Section</h3>
       <table className="homepage_table">
+        <thead>
         <tr>
           <th>Section Name</th>
           <th>Action</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>Slider</td>
           <td>
@@ -123,6 +126,7 @@ const Homenavigation = () => {
             </button>
           </td>
         </tr>
+        </tbody>
       </table>
     </Sidebar>
   );

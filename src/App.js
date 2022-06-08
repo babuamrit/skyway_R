@@ -7,6 +7,7 @@ import Admin from "./Pages/Admin";
 import Sidebar from "./Components/Sidebar";
 import Homenavigation from "./Pages/Homenavigation";
 import Listing from "./Pages/Listing";
+import { Editor } from './Pages/Editor';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path="/" element={<About />} />
 
         <Route path="/admin" element={<Admin />} />
-        <Route path="/dashbord" element={<Homenavigation />} />
+        <Route path="/dashboard" element={<Homenavigation />} />
         <Route path="/listing/:name" element={<Listing />} />
+        <Route path="/editor/:name" element={<Editor />} />
       </Routes>
     </BrowserRouter>
   );
