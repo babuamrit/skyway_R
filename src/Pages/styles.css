@@ -1,0 +1,89 @@
+/* admin login pages here */
+.admin_page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.admin_submit{
+    border-style: none !important;
+    height:40px !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.admin_passcode_input{
+    height: 40px ;
+    border-color: #A0A0A0 !important;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+
+
+/*sidebar */
+.page_with_sidebar{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width:310px;
+    background-color: black;
+}
+.sidebar_heading{
+    font-family: Oswald, sans-serif;
+     font-weight: 500;
+      line-height: 1em;
+       color: #A0A0A0;
+        font-size: 31px;
+         text-align: center;
+          text-transform: uppercase;
+           display: block;
+           margin-top: 40px;
+           margin-bottom: 40px;
+}
+
+.menu_item_box{
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.menu_item{
+    list-style-type: none;
+    color:white;
+    height:40px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.homepage_table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.sidebar_children{
+    flex:1;
+    padding:25px;
+}
+
+
+.homepage_table>tr{
+    height:55px
+    
+}
+
+.homepage_table>tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
