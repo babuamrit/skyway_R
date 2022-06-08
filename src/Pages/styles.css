@@ -87,3 +87,9 @@
 .homepage_table>tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+
+  /* editor */
+  .editor_gridcontainer{
+      display: grid;
+      grid-template-columns: 310px 310px;
+  }

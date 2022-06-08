@@ -18,14 +18,17 @@ export const Editor = () => {
        <div>Enter the following information</div>
        <div className='editor_gridcontainer'>
            {items[params.name].map((value,index)=>(
-               <div>
-               <label for={value} >{value}</label>
+               <div class="mb-4 editor_input_grid">
+               <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                {value}
+               </label>
                <input type="text" id={value} onChange={(e)=>{
                    const temp = {...pagedata, immutate_value:"xcvhjhi"};
                    temp[value] = e.target.value
                    setdata(temp) 
-               }} /> 
-               </div>
+               }} class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+             </div>
+             
            ))}
        </div>
    </Sidebar>
