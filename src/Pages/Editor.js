@@ -16,7 +16,6 @@ export const Editor = () => {
   return (
    <Sidebar> 
        <div>Enter the following information</div>
-       <div className="editor_flex">
        <div className='editor_gridcontainer'>
            {items[params.name].map((value,index)=>(
                <div class="mb-4 editor_input_grid">
@@ -31,10 +30,6 @@ export const Editor = () => {
              </div>
              
            ))}
-       </div>
-       <div>
-         <input type="file" accept="image/*" />
-         </div>
        </div>
    </Sidebar>
   )
