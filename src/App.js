@@ -7,7 +7,10 @@ import Admin from "./Pages/Admin";
 import Sidebar from "./Components/Sidebar";
 import Homenavigation from "./Pages/Homenavigation";
 import Listing from "./Pages/Listing";
-import { Editor } from './Pages/Editor';
+import { Editor } from "./Pages/Editor";
+import UEditor from "./Pages/UEditor";
+import Global from "./Pages/Global";
+import MenuListing from "./Pages/MenuListing";
 
 function App() {
   return (
@@ -19,6 +22,13 @@ function App() {
         <Route path="/dashboard" element={<Homenavigation />} />
         <Route path="/listing/:name" element={<Listing />} />
         <Route path="/editor/:name" element={<Editor />} />
+        <Route path="/ueditor/:name/:id" element={<UEditor />} />
+        <Route path="/global" element={<Global />} />
+        <Route path="/menulink/:position" element={<></>} />
+        <Route path="/menudropdown/:position/:innerposition" element={<></>} />
+        <Route path="/menudropdown/:position/" element={<></>} />
+        <Route path="/menudropdownlisting/:position" element={<></>} />
+        <Route path="/menulisting" element={<MenuListing />} />
       </Routes>
     </BrowserRouter>
   );

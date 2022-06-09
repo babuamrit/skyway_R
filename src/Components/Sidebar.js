@@ -16,8 +16,6 @@ const Sidebar = (props) => {
             <li className="menu_item">Home</li>
             <li className="menu_item">NavBar</li>
             <li className="menu_item">Gallery</li>
-            <li className="menu_item">Job Category</li>
-            <li className="menu_item">Job Available</li>
             <li className="menu_item">Global</li>
           </div>
         </div>

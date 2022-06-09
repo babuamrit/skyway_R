@@ -1,4 +1,5 @@
 {
-    "apiurl":"http://localhost:9000/api/"
+    "apiurl":"http://localhost:9000/api/",
+    "static":"http://localhost:9000/"
 }
 
