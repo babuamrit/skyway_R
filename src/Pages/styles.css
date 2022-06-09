@@ -92,4 +92,18 @@
   .editor_gridcontainer{
       display: grid;
       grid-template-columns: 310px 310px;
+      gap:10px;
   }
+
+.editor_flex{
+    width:670px;
+}  
+
+.suneditor{
+    height:400px !important;
+}
+
+.editor_flex{
+    display:flex;
+    gap:100px;
+}
