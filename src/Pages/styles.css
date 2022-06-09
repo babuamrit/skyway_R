@@ -136,7 +136,29 @@
 }
 
 /*menulisting */
+.menulisting-table{
+  border-style: solid;
+  border-width: 4px;
+  
+}
 .menulisting-head{
-    width:160px;
+    width:250px;
     height:40px;
 }
+.menulisting-body{
+    width:250px;
+    height:40px;
+}
+
+
+/*pages*/
+
+.alink-flexcontainer{
+   display: flex;
+   gap:70px; 
+}
+
+.alink-sideleft{
+    width:550px
+}
+

@@ -9,8 +9,8 @@ const Homenavigation = () => {
       <h3>Edit Homepage Section</h3>
       <table className="homepage_table">
         <thead>
-        <tr>
-          <th>Section Name</th>
+        <tr className="">
+          <th className="">Section Name</th>
           <th>Action</th>
         </tr>
         </thead>

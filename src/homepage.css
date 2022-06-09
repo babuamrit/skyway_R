@@ -1,0 +1,16 @@
+.banner{
+    padding-left: 5%;
+    padding-right:5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.homepage_logo{
+    height:70px !important;
+    
+}
+
+.menubar{
+    display: flex;
+}

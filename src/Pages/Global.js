@@ -18,7 +18,7 @@ const Global = () => {
       if (result.error) {
         alert(result.result[0].text1);
       } else {
-        setdata(JSON.parse(result.result[0].text1));
+        setdata(prev=>({...prev,...JSON.parse(result.result[0].text1)}));
       }
     });
   }, []);
@@ -242,7 +242,7 @@ const Global = () => {
         </div>
       </div>
       Messge From Chairman
-      {typeof data.description == "string" && (
+      {true && (
         <SunEditor
           height="160px"
           width="700px"
