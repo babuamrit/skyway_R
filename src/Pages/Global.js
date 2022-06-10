@@ -18,7 +18,7 @@ const Global = () => {
       if (result.error) {
         alert(result.result[0].text1);
       } else {
-        setdata(prev=>({...prev,...JSON.parse(result.result[0].text1)}));
+        //  setdata((prev) => ({ ...prev, ...JSON.parse(result.result[0].text1) }));
       }
     });
   }, []);

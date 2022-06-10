@@ -17,7 +17,6 @@ import CDropdown from "./Pages/CDropdown";
 import Dlisting from "./Pages/Dlisting";
 import Home from "./Pages/Home";
 
-
 function App() {
   return (
     <BrowserRouter>
@@ -31,16 +30,17 @@ function App() {
         <Route path="/ueditor/:name/:id" element={<UEditor />} />
         <Route path="/global" element={<Global />} />
         <Route path="/menulink/:position" element={<></>} />
-        <Route path="/menueditor/:action/:type/:index1/:index2" element={<ALink />} />
+        <Route
+          path="/menueditor/:action/:type/:index1/:index2"
+          element={<ALink />}
+        />
         <Route path="/menudropdown/:position/" element={<></>} />
         <Route path="/dlisting/:index" element={<Dlisting />} />
         <Route path="/menulisting" element={<MenuListing />} />
-        <Route path="/createdrop" element={ <CDropdown />  } />
+        <Route path="/createdrop" element={<CDropdown />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-
 
 export default App;

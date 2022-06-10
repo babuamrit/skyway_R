@@ -3,6 +3,7 @@
     padding-right:5%;
     display:flex;
     justify-content: space-between;
+     background-color: #267ADF;
 }
 
 
@@ -10,31 +11,294 @@
     height:70px !important;
     
 }
-
+.home_logo_container{
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .menubar{
     display: flex;
     padding-left: 10%;
     padding-top:16px;
     padding-bottom: 16px;
+    background-color: #267ADF !important;
+    width: 100%;
+   
 }
 
 .menubox{
     display: flex;
-    gap:25px;
-    height:70px;
+    gap:7px;
+    height:40px;
     align-items: center;
-    margin-left: 25px;;
+    padding-left: 15%;
+    background-color: #267ADF;
+  
 }
 .menuitem{
 height:40px;
-padding-left: 10px;
-padding-right:10px;
+padding-left: 4px;
+padding-right:4px;
 display: flex;
 align-items: center;
+font-size: 13px;
+color:white
 }
 
 .menudrop{
-    color:black !important;
+    color:white !important;
     border-style: none !important;
     box-shadow: none !important;
+    font-size: 13px !important;
+    background-color: #267ADF !important;
+    
+}
+
+.slider{
+    height:100px
+}
+
+.slider-image{
+    height:70vh;
+    width:100%;
+}
+
+.service-heading{
+    text-align: center;
+    font-size:41px;
+    margin-top:40px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color:#2677bd;
+    font-family: "Railway" , "sans-serif";
+    color:rgba(128, 128, 128, 0.712)
+
+}
+
+.service-body{
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 160px 160px 160px 160px;
+    column-gap: 70px;
+    row-gap: 50px;
+    
+   
+}
+
+.service-image{
+width:100px;
+height:100px;
+}
+
+.service-label{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+.services{
+    background-color: #f6f7f6;
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+    
+    box-shadow: 1px 1px 1px 1px #DEDEDE;
+    background-color: white;
+
+}
+
+.service-button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;;
+    
+}
+
+.jobc-body{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 280px 280px 280px ;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.jobc-button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;;
+    
+}
+
+.jobc-heading{
+    text-align: center;
+    font-size:41px;
+    margin-top:40px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color:#2677bd
+
+}
+
+.jobc-image{
+    width:250px;
+    height:200px !important;
+}
+
+.jobc-label{
+  width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.jobs-open{
+   
+  
+}
+
+.job-available{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    background-image:  url("https://vagabondish.com/wp-content/uploads/night-skyline-dubai-7053338455.jpg");
+}
+
+.jobs-available-image{
+
+    height:160px;
+
+}
+
+.jobs-available-heading{
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.team-class{
+    display: flex;
+  
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;;
+}
+
+.team-heading{
+    display: flex;
+    gap:10px;
+    font-size:40px;
+    font-weight: 700;
+}
+
+.team-heading-color{
+    background-color: #b6c9eb;
+    color:#0562aff1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team-morale{
+    width:700px;
+    font-size:18px;
+    color:#606F79;
+}
+
+.team-container{
+    margin-top:70px;
+    display: grid;
+  grid-template-columns: 400px 400px;;
+  gap:25px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;;
+  
+ 
+    background-color:#FEFEFE;
+    width:400px;
+}
+
+.team-image{
+    height:160px !important;
+    width:260px !important;
+}
+
+.team-name{
+    font-size:25px;
+ margin-left:25px;
+ width:200px;
+   padding-right:25px;
+   font-weight: 700;
+   color:#21333E;
+   line-height: 1;
+}
+
+.team-info{
+    padding-left:25px;
+    color:#936D75;
+}
+
+
+.message_from-chairman{
+    width:370px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    text-align: justify;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#3d3d3d;
+   
+    color:#3d3d3d;
+    border-radius: 16px;;
+}
+
+.client-container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:40px;
+    padding-bottom: 40px;
+   
+    background-image: url("http://webdesign-finder.com/human-consult/wp-content/uploads/2017/06/texture2.jpg");
+}
+
+.client{
+    height:100px;
+    width:100px;
+}
+
+.client-heading{
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color:#03345cf1;
+
+}
+
+.client-swiper{
+    height:160px;
+}
+
+.client-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
